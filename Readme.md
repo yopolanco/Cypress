@@ -17,10 +17,10 @@ You need to install the following dependencies
 
 ## Run
 
-1.GUI
+1. GUI
 - npx cypress open
 
-2.In background
+2. In background
  - npm run challengeCypress
 
 ## Generate report
