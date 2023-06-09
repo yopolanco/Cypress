@@ -1,0 +1,413 @@
+[
+  {
+    "description": "    As user\n    I want to be able to log into the Amazon page.\n    So I can create an order and manage it.",
+    "keyword": "Feature",
+    "name": "Create Order",
+    "line": 1,
+    "id": "create-order",
+    "tags": [],
+    "uri": "createOrder.feature",
+    "elements": [
+      {
+        "id": "create-order;scenario-outline-name:-validate-that-searches-can-be-performed-correctly",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Scenario Outline name: Validate that searches can be performed correctly",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "The user accesses the Amazon page",
+            "result": {
+              "status": "passed",
+              "duration": 7571000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "The web page loads correctly",
+            "result": {
+              "status": "passed",
+              "duration": 2020000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "The user tries to log in with username and password",
+            "result": {
+              "status": "passed",
+              "duration": 15312000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "The user should see the welcome message",
+            "result": {
+              "status": "passed",
+              "duration": 2039000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "The user searches 'mouse' in the search bar",
+            "result": {
+              "status": "passed",
+              "duration": 16372000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "The amazon page shows the list of items available to buy",
+            "result": {
+              "status": "passed",
+              "duration": 2081000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "create-order;validate-that-items-can-be-added-to-the-cart",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Validate that items can be added to the cart",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "The user accesses the Amazon page",
+            "result": {
+              "status": "passed",
+              "duration": 36195000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "The web page loads correctly",
+            "result": {
+              "status": "passed",
+              "duration": 2025000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "The user tries to log in with username and password",
+            "result": {
+              "status": "passed",
+              "duration": 13225000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "The user should see the welcome message",
+            "result": {
+              "status": "passed",
+              "duration": 2039000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 21,
+            "name": "The user searches 'mouse' in the search bar",
+            "result": {
+              "status": "passed",
+              "duration": 16704000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "Add an item to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 17144000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "The item is added to the cart successfully",
+            "result": {
+              "status": "passed",
+              "duration": 7007000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "create-order;validate-that-a-created-order-can-be-deleted",
+        "keyword": "Scenario",
+        "line": 38,
+        "name": "Validate that a created order can be deleted",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "The user accesses the Amazon page",
+            "result": {
+              "status": "passed",
+              "duration": 5932000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "The web page loads correctly",
+            "result": {
+              "status": "passed",
+              "duration": 2034000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "The user tries to log in with username and password",
+            "result": {
+              "status": "passed",
+              "duration": 12519000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "The user should see the welcome message",
+            "result": {
+              "status": "passed",
+              "duration": 2045000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 30,
+            "name": "The user searches 'mouse' in the search bar",
+            "result": {
+              "status": "passed",
+              "duration": 15481000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "Add an item to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 16262000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "Open the shopping cart",
+            "result": {
+              "status": "passed",
+              "duration": 4447000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "The user deletes the article '<delete>' that was added",
+            "result": {
+              "status": "passed",
+              "duration": 4265000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "The amazon page shows the notification that the item was removed",
+            "result": {
+              "status": "passed",
+              "duration": 4094000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "create-order;validate-that-an-order-can-be-created-with-two-items-and-then-delete-one",
+        "keyword": "Scenario",
+        "line": 54,
+        "name": "Validate that an order can be created with two items and then delete one",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "The user accesses the Amazon page",
+            "result": {
+              "status": "passed",
+              "duration": 5616000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "The web page loads correctly",
+            "result": {
+              "status": "passed",
+              "duration": 2031000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "The user tries to log in with username and password",
+            "result": {
+              "status": "passed",
+              "duration": 12208000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "The user should see the welcome message",
+            "result": {
+              "status": "passed",
+              "duration": 2054000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 41,
+            "name": "The user searches 'mouse' in the search bar",
+            "result": {
+              "status": "passed",
+              "duration": 16812000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "The user sorts the search result by 'Price: High to Low'",
+            "result": {
+              "status": "passed",
+              "duration": 6711000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "Add an item to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 13199000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "The user searches 'mouse' in the search bar",
+            "result": {
+              "status": "passed",
+              "duration": 16963000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 45,
+            "name": "The user sorts the search result by 'Price: Low to High'",
+            "result": {
+              "status": "passed",
+              "duration": 6629000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 46,
+            "name": "Add an item to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 15607000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 47,
+            "name": "Open the shopping cart",
+            "result": {
+              "status": "passed",
+              "duration": 4714000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 48,
+            "name": "The user deletes the article '2' that was added",
+            "result": {
+              "status": "passed",
+              "duration": 4459000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 49,
+            "name": "The user tries to checkout",
+            "result": {
+              "status": "passed",
+              "duration": 13347000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "The amazon page shows the selected items and the total to pay",
+            "result": {
+              "status": "passed",
+              "duration": 6215000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

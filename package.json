@@ -1,0 +1,34 @@
+{
+  "name": "cypress-challenge",
+  "version": "1.0.0",
+  "description": "Cypress challenge",
+  "main": "index.js",
+  "scripts": {
+    "challengeCypress": "cypress run --browser chrome",
+    "cypress:open": "cypress open"
+  },
+  "keywords": [
+    "amazon",
+    "challenge",
+    "cypress"
+  ],
+  "author": "Yorhan Polanco",
+  "license": "ISC",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.34.0",
+    "cypress": "^12.8.1",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-xpath": "^2.0.1",
+    "multiple-cucumber-html-reporter": "^3.3.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "step_definitions": "cypress/e2e/",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  }
+}
